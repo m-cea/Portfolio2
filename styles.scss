@@ -1,0 +1,27 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+h1{   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+    background-color: beige;
+    text-align: center;
+}
+
+.acercade{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    text-emphasis: 10;
+}
+
+body{
+    background-image: url('../fondo.jpg'); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+

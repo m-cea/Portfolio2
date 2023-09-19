@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Informática</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/fontAwesome.css">
+        <link rel="stylesheet" href="css/hero-slider.css">
+        <link rel="stylesheet" href="css/owl-carousel.css">
+        <link rel="stylesheet" href="css/datepicker.css">
+        <link rel="stylesheet" href="css/tooplate-style.css">
+
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+<!--
+Tooplate 2112 Brunch
+https://www.tooplate.com/view/2112-brunch
+-->
+<body class="informatica_b">
+ 
+    <div class="wrap inner-header">
+        <header id="header">
+            <div class="container-fluid">
+                <div class="col-md-12">
+                    <button id="primary-nav-button" type="button">Menu</button>
+                    <div class="logo">
+                        <a href="index.html"><img src="img/foto.jpg" alt="Foto"></a>
+                        <span class="nombre">Matias Cea</span>
+                    </div>
+                    <nav id="primary-nav" class="dropdown cf">
+                        <ul class="dropdown menu">
+                            <li class='active'><a href="/">Home</a></li>
+                            <li><a href="/psicologia">Psicología</a></li>
+                            <li><a href="/informatica">Informática</a></li>
+                            <li><a href="/about">Sobre Mí</a></li>
+                            <li><a href="https://www.linkedin.com/in/m-cea/" target="_blank">LinkedIn</a></li>
+                        </ul>
+                    </nav><!-- / #primary-nav -->
+                </div>
+            </div>
+        </header>
+    </div>
+
+    <div class="informatica">
+        <div class="container">
+            <div class="col-md-12">
+                <h2>Informática</h2>
+                <div class="line-dec"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="datos_inf">
+        <br>
+        <ul>
+            <li>
+                <a href="https://www.unsada.edu.ar/images/academico/Res_Min_Edu/A_INF-RES_1297-18.pdf" target="_blank">Analista en Informática - Universidad Nacional de San Antonio de Areco</a>                    
+            </li>
+            <li>
+                <a href="https://github.com/m-cea" target="_blank">Mi Github</a>
+            </li>
+        </ul>
+    </div><br>
+
+    <div class="subtitulo">
+        <h1>Proyectos Personales</h1>
+    </div>
+
+    <div class="left-right-image">
+        <div class="container">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="right-image">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="hidden-sm hidden-xs">PedidosApp</h2>
+                            <h2 class="hidden-lg hidden-md">PedidosApp</h2>
+                            <span>Aplicación para la gestión de pedidos y stock de un depósito de frutas y verduras.</span>
+                            <p>Permite llevar el control del stock (disponible y pedido) del depósito así como almacenar datos de sus clientes y artículos disponibles para generar pedidos descargables en PDF.</p> <br />
+                            <p>Desarrollado en equipo de 2 personas con AndroidStudio utilizando Java y manejando base de datos de Firebase.</p>
+                            <div class="blue-border-button">
+                                <a href="/pedidosApp">Ver</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="image">
+                                <img src={{ asset("img/pedidosApp.jpg")}} alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-image">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="image">
+                                <img src={{ asset("img/intervencionesEOE.jpg")}} alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="hidden-sm hidden-xs">Intervenciones EOE</h2>
+                            <h2 class="hidden-lg hidden-md">Intervenciones EOE</h2>
+                            <span>Sistema de registro de acciones de integrantes de Equipos de Orientación Escolar</span>
+                            <p>Permite un registro de alumnos y docentes con los que se ha intervenido así como de las acciones llevadas a cabo en el Equipo de Orientación Escolar. Genera un listado de todo el trabajo realizado en un mes determinado descargable en PDF y permite agendar futuros eventos de trabajo.</p> <br /> 
+                            <p>Desarrollado en HTML, CSS y PHP manejando base de datos MySQL.</p>
+                            <div class="blue-border-button">
+                                <a href="/intervencionesEOE">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="left-right-image">
+        <div class="container">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="right-image">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="hidden-sm hidden-xs">hoyCescabia</h2>
+                            <h2 class="hidden-lg hidden-md">hoyCescabia</h2>
+                            <span>Juego para tomar</span>
+                            <p>App para jugar con amigos y divertirse tomando. Cuenta con diferentes niveles de dificultad según se elija en base a la cantidad de alcohol gestionada por el juego.</p> <br />
+                            <p>Desarrollado en AndroidStudio en Java utilizando Google Login de Firebase.</p>
+                            <div class="blue-border-button">
+                                <a href="/hoyCescabia">Ver</a>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="image">
+                                <img src={{ asset("img/hoyCescabia.jpg")}} alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="left-image">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="image">
+                                <img src={{ asset("img/reproductor.jpg")}} alt="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="hidden-sm hidden-xs">Reproductor</h2>
+                            <h2 class="hidden-lg hidden-md">Reproductor</h2>
+                            <span>Reproductor de radio y música libre</span>
+                            <p>App que permite la reproducción de emisoras AM y FM así como de música libre via web.</p> <br /> 
+                            <p>Desarrollado en en equipo de 2 personas con AndroidStudio en Java utilizando servicio web hecho en Flask (Python) que conecta a una MongoDB donde se encuentran almacenados los link de streaming disponibles. Implementa Google Login de Firebase.</p>
+                            <div class="blue-border-button">
+                                <a href="/reproductor">Ver</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <br>
+
+    <div class="sub-footer">
+        <div class="container">
+            <div class="col-md-12">
+                <p>2023 Matias Cea. - liccealaboral@gmail.com - Derivado de Plantilla Brunch (by Tooplate)</p>                
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+    <script src="js/vendor/bootstrap.min.js"></script>
+    
+    <script src="js/datepicker.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
